@@ -13,6 +13,10 @@ class AppConstants {
   /// [BorderRadius]
   static final BorderRadius borderRadius20 = BorderRadius.circular(20);
 
+  /// [Padding]
+  static const EdgeInsets dropDownPadding =
+      EdgeInsets.symmetric(horizontal: 16, vertical: 6);
+
   /// [TextStyle] Constants
 
   static TextStyle styles(

@@ -15,8 +15,11 @@ class ShowAverage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
-          lessonsNumber > 0 ? '$lessonsNumber lessons added' : 'Ders Seçiniz',
+          lessonsNumber > 0
+              ? '$lessonsNumber lessons added'
+              : 'choose your lesson',
           style: AppConstants.styles(fontWeight: FontWeight.w600, fontSize: 16),
+          textAlign: TextAlign.center,
         ),
         Text(
           average > 0 ? '${average.toStringAsFixed(2)}' : '0.00',
