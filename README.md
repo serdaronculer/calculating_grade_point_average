@@ -9,10 +9,13 @@
 - [Author](#author)
 
 ## Screenshot
+**NOTE:** **I don't remember why I misspelled the word physics**😁
 
 ![](GIF/Animation.gif)
 
 Here you see the mobile preview of the project.
+
+
 
 ## APK
 
